@@ -5,6 +5,6 @@ const enterBtn = document.getElementById("enterBtn")
 
 enterBtn.addEventListner("click",()=>{
 
-status.innerText = "<h1>Entered Metaverse</h1>"
+status.innerHtml = "<h1>Entered Metaverse</h1>"
 
 })
